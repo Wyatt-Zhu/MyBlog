@@ -18,23 +18,70 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: White
-      accent: pink
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: Black
-      accent: White
+      primary: black
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
+plugins:
+  - search:
+      lang: 
+        - ja
+        - en
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Wyatt-Zhu/
+      name: GitHub | Wyatt-Zhu
+
+
+
+
+# # [top_right] 
+# repo_name: MyBlog
+# repo_url: https://github.com/Wyatt-Zhu/MyBlog/
+
+copyright: Copyright &copy; 2022 祝宏博
 
 nav:
   - 欢迎: "index.md"
+  - 随笔:
+      - 引: "随笔/随笔.md"
+  - 影评:
+      - 引: "影评/影评.md"
 
+# https://squidfunk.github.io/mkdocs-material/reference/
+# https://facelessuser.github.io/pymdown-extensions/
+markdown_extensions:
+  # - pymdownx.arithmatex: # latex支持
+  #     generic: true
+  - attr_list # 给图片后面添加{width="300"}设置大小
+  - pymdownx.betterem
+  - pymdownx.caret # support ^
+  - pymdownx.mark # support =
+  - pymdownx.tilde # support ~
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
+  - pymdownx.superfences # 代码块高亮插件
+
+  - meta # 支持Markdown文件上方自定义标题标签等
+
+extra_css:
+  - mkdocs/css/no-footer.css 
+  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
