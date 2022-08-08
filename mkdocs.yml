@@ -1,0 +1,40 @@
+site_name: 42X24
+site_url: https://42x24.fun/
+site_author: Wyatt-Zhu
+site_description: >-
+  WyattZhu's blog
+
+theme: 
+  name: material
+  language: zh
+
+  static_templates:
+    - 404.html
+
+  include_search_page: false
+  search_index_only: true
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: White
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: Black
+      accent: White
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Wyatt-Zhu/
+
+nav:
+  - 欢迎: "index.md"
+
