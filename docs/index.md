@@ -13,5 +13,5 @@
 * [ ] 移植旧文
 
 ??? note
-    lalalalala
+    祝你每天开心！:fontawesome-solid-face-smile-wink:{ .wink }
 

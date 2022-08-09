@@ -66,6 +66,9 @@ markdown_extensions:
   # - pymdownx.arithmatex: # latex支持
   #     generic: true
   - attr_list # 给图片后面添加{width="300"}设置大小
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.betterem
   - pymdownx.caret # support ^
   - pymdownx.mark # support =
@@ -87,3 +90,4 @@ markdown_extensions:
 extra_css:
   - mkdocs/css/no-footer.css 
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+  - mkdocs/css/color.css 
