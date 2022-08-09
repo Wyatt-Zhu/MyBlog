@@ -12,6 +12,6 @@
 * [x] 更换左上图标
 * [ ] 移植旧文
 
-??? note
-    <font color=#f3e3b1>祝你</font><font color=#ff6c5b>每天<font color=#64c7e4>开心</font> :fontawesome-solid-face-smile-wink:{ .wink }
+??? note "白日梦飞翔，永不太远太抽象"
+    <font color=#f3e3b1>**祝你**</font><font color=#ff6c5b>**每天**<font color=#64c7e4>**开心**</font> :fontawesome-solid-face-smile-wink:{ .wink }
 
