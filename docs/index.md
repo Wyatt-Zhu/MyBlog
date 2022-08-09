@@ -13,5 +13,5 @@
 * [ ] 移植旧文
 
 ??? note
-    祝你每天开心！:fontawesome-solid-face-smile-wink:{ .wink }
+    <font color=#f3e3b1>祝你</font><font color=#ff6c5b>每天<font color=#64c7e4>开心</font> :fontawesome-solid-face-smile-wink:{ .wink }
 
