@@ -5,6 +5,8 @@ site_description: >-
   WyattZhu's blog
 
 theme: 
+  logo: images/ufo.svg
+  favicon: images/Mobius.svg
   name: material
   language: zh
 
