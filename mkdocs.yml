@@ -8,7 +8,7 @@ theme:
   logo: images/ufo.svg
   favicon: images/Mobius.svg
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   language: zh
 
   static_templates:
@@ -34,9 +34,9 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
   - search:
       lang: 
         - ja

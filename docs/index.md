@@ -14,5 +14,5 @@
 * [ ] 移植旧文
 
 ??? note "白日梦飞翔，永不太远太抽象"
-    <font color=#f3e3b1 size=2>^**祝你**^</font><font color=#ff6c5b size=3>~**每天**~</font><font color=#64c7e4 size=4>**开心**</font> :fontawesome-regular-face-laugh-wink:{ .wink }
+    <font color=#f3e3b1 size=2>^**祝你**^</font><font color=#ff6c5b size=3>~**每天**~</font><font color=#64c7e4 size=4>**开心**</font> :fontawesome-regular-face-grin-wink:{ .wink }
 
