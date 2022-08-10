@@ -39,12 +39,13 @@ plugins:
         - en
 
 extra:
+  analytics:
+    provider: google
+    property: G-KJB4RXSKZG
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Wyatt-Zhu/
       name: GitHub | Wyatt-Zhu
-
-
 
 
 # # [top_right] 
