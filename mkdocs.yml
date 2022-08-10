@@ -8,7 +8,7 @@ theme:
   logo: images/ufo.svg
   favicon: images/Mobius.svg
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   language: zh
 
   static_templates:
