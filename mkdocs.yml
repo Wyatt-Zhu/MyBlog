@@ -8,6 +8,7 @@ theme:
   logo: images/ufo.svg
   favicon: images/Mobius.svg
   name: material
+  custom_dir: overrides
   language: zh
 
   static_templates:
@@ -35,6 +36,7 @@ theme:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
+      type: timeago
   - search:
       lang: 
         - ja
@@ -70,8 +72,8 @@ markdown_extensions:
   #     generic: true
   - attr_list # 给图片后面添加{width="300"}设置大小
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
   - pymdownx.betterem
   - pymdownx.caret # support ^
   - pymdownx.mark # support =
