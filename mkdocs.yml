@@ -9,6 +9,7 @@ theme:
   favicon: images/Mobius.svg
   name: material
   language: zh
+  custom_dir: overrides
 
   static_templates:
     - 404.html
