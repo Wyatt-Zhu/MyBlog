@@ -36,7 +36,7 @@ theme:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-      type: iso_datetime
+      type: datetime
   - search:
       lang: 
         - ja
