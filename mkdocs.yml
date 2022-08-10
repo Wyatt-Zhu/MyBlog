@@ -9,7 +9,6 @@ theme:
   favicon: images/Mobius.svg
   name: material
   language: zh
-  custom_dir: overrides
 
   static_templates:
     - 404.html
@@ -20,7 +19,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: White
+      primary: white
       accent: deep orange
       toggle:
         icon: material/weather-sunny
@@ -34,6 +33,8 @@ theme:
         name: Switch to light mode
 
 plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
   - search:
       lang: 
         - ja
@@ -42,7 +43,7 @@ plugins:
 extra:
   analytics:
     provider: google
-    property: G-KJB4RXSKZG
+    property: G-V9C343CJV1
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Wyatt-Zhu/
