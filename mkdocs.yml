@@ -63,9 +63,9 @@ copyright: Copyright &copy; 2022 祝宏博
 nav:
   - 欢迎: "index.md"
   - 随笔:
-      - 引: "随笔/随笔.md"
+      - 引: "随笔/index.md"
   - 影评:
-      - 引: "影评/影评.md"
+      - 引: "影评/index.md"
 
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/

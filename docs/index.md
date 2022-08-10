@@ -1,3 +1,6 @@
+---
+template: withComents.html
+---
 # 欢迎来到42X24
 
 这里是祝宏博的个人博客
