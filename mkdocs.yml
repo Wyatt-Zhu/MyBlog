@@ -5,7 +5,7 @@ site_description: >-
   WyattZhu's blog
 
 theme: 
-  logo: images/ufo.svg
+  logo: images/UFO.png
   favicon: images/Mobius.svg
   name: material
   custom_dir: custom
@@ -34,9 +34,9 @@ theme:
         name: Switch to light mode
 
 plugins:
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: iso_date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_date
   - search:
       lang: 
         - ja
@@ -97,6 +97,6 @@ markdown_extensions:
   - meta # 支持Markdown文件上方自定义标题标签等
 
 extra_css:
-  - mkdocs/css/no-footer.css 
-  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
-  - mkdocs/css/color.css 
+  - extra/css/no-footer.css 
+  - extra/css/unordered-list-symbols.css # multiplt unordered list symbols
+  - extra/css/color.css 
