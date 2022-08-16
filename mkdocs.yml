@@ -8,7 +8,7 @@ theme:
   logo: images/ufo.svg
   favicon: images/Mobius.svg
   name: material
-  custom_dir: overrides
+  custom_dir: custom
   language: zh
 
   static_templates:
@@ -34,9 +34,9 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: iso_date
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: iso_date
   - search:
       lang: 
         - ja
@@ -66,6 +66,8 @@ nav:
       - 引: "随笔/index.md"
   - 影评:
       - 引: "影评/index.md"
+  - 搭建:
+      - 测试: "搭建/index.md"
 
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/
