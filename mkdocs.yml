@@ -75,8 +75,8 @@ nav:
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/
 markdown_extensions:
-  # - pymdownx.arithmatex: # latex支持
-  #     generic: true
+  - pymdownx.arithmatex: # latex支持
+      generic: true
   - attr_list # 给图片后面添加{width="300"}设置大小
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
