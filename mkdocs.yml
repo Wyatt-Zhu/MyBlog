@@ -103,3 +103,9 @@ extra_css:
   - extra/css/no-footer.css 
   - extra/css/unordered-list-symbols.css # multiplt unordered list symbols
   - extra/css/color.css 
+
+extra_javascript:
+  - extra/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
