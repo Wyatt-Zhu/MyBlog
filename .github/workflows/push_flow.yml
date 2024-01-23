@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - master
-      - main
+      - main-page
   pull_request:
     branches:
-      - main
+      - main-page
 
 jobs:
   deploy:
