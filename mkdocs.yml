@@ -43,6 +43,7 @@ plugins:
         - en
   - minify:
       minify_html: true
+  - glightbox
 
 extra:
   analytics:
@@ -70,14 +71,15 @@ nav:
   - 搭建:
       - 测试: "搭建/index.md"
   - 学习:
-      - Opticil Communications: "学习/Optical Comunications/note.md"
+      - Optical Communications: "学习/Optical Comunications/note.md"
 
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/
 markdown_extensions:
-  - pymdownx.arithmatex: # latex支持
+  - pymdownx.arithmatex: # support latex
       generic: true
   - attr_list # 给图片后面添加{width="300"}设置大小
+  - md_in_html
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -92,10 +94,15 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true # 固定标题位置为当前位置
+      title: On this page
   - pymdownx.highlight: # 代码块高亮
       linenums: true # 显示行号
       auto_title: true # 显示编程语言名称
-  - pymdownx.superfences # 代码块高亮插件
+  - pymdownx.superfences: # 代码块高亮插件
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
   - meta # 支持Markdown文件上方自定义标题标签等
 
