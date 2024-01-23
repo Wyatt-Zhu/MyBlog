@@ -11,6 +11,12 @@ theme:
   custom_dir: custom
   language: zh
 
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+
   static_templates:
     - 404.html
 
@@ -59,19 +65,21 @@ extra:
 # repo_name: MyBlog
 # repo_url: https://github.com/Wyatt-Zhu/MyBlog/
 
-copyright: Copyright &copy; 2022 祝宏博
+copyright: Copyright &copy; 2024 祝宏博
 
 nav:
-  - 欢迎: "index.md"
+  - 欢迎: index.md
   - 随笔:
-      - 引: "随笔/index.md"
-      - 文字的逻辑: "随笔/文字的逻辑.md"
+      - Essay/index.md
+      - 文字的逻辑: Essay/文字的逻辑.md
   - 影评:
-      - 引: "影评/index.md"
+      - Review/index.md
   - 学习:
-      - Optical Communications: "学习/Optical Comunications/note.md"
+      - Study/index.md
+      - Optical Communications: Study/Optical Comunications/note.md
   - 资源:
-      - Website: "资源/Website.md"
+      - Resources/index.md
+      - Website: Resources/Website.md
 
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/
