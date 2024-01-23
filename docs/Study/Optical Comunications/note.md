@@ -73,7 +73,7 @@ B2-->C4(Intermodal)
 B2-->C5(Intramodal)
 
 ```
-![Image title](image.png)
+![Image title](image.png){wdith="80%"}
 
 ### Attenuation
 
@@ -147,7 +147,7 @@ $$
 P_o=P_i \cdot \frac{\sigma_o}{\sigma_i}
 $$
 
-![Image title](image-1.png)
+![Image title](image-1.png){width="75%"}
 
 ### Polarization Mode Dispersion(Exercise3 Q8,9)
 
