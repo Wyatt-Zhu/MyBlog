@@ -68,10 +68,10 @@ nav:
       - 文字的逻辑: "随笔/文字的逻辑.md"
   - 影评:
       - 引: "影评/index.md"
-  - 搭建:
-      - 测试: "搭建/index.md"
   - 学习:
       - Optical Communications: "学习/Optical Comunications/note.md"
+  - 资源:
+      - Website: "资源/Website.md"
 
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/
@@ -81,8 +81,8 @@ markdown_extensions:
   - attr_list # 给图片后面添加{width="300"}设置大小
   - md_in_html
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.betterem
   - pymdownx.caret # support ^
   - pymdownx.mark # support =
