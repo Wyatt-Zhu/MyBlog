@@ -16,6 +16,8 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
+    - content.code.copy
+    - content.code.select
 
   static_templates:
     - 404.html
@@ -80,13 +82,14 @@ nav:
   - 资源:
       - Resources/index.md
       - Website: Resources/Website.md
+      - Command: Resources/Command.md
 
 # https://squidfunk.github.io/mkdocs-material/reference/
 # https://facelessuser.github.io/pymdown-extensions/
 markdown_extensions:
   - pymdownx.arithmatex: # support latex
       generic: true
-  - attr_list # 给图片后面添加{width="300"}设置大小
+  - attr_list
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -104,8 +107,11 @@ markdown_extensions:
       permalink: true # 固定标题位置为当前位置
       title: On this page
   - pymdownx.highlight: # 代码块高亮
-      linenums: true # 显示行号
-      auto_title: true # 显示编程语言名称
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences: # 代码块高亮插件
       custom_fences:
         - name: mermaid
