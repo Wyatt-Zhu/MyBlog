@@ -188,8 +188,11 @@ $$
 $$
 
 **Bandwidth for Gaussian pulses**
+$$
+\sigma = 0.43\tau
+$$
 
 $$
-\sigma = 0.43\tau \\
-    B = \frac{0.19}{\sigma}=\frac{0.44}{\tau}
+B = \frac{0.19}{\sigma}=\frac{0.44}{\tau}
 $$
+
