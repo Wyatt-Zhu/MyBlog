@@ -184,10 +184,11 @@ control `Launch Condition`, because we need to obtain a equilibrium modal power 
 **3-dB pulse (full duration at half maximum) broadening**
 
 $$
-    \tau=\frac{\sqrt{\tau_o^2-\tau_i^2}}{L}
+\tau=\frac{\sqrt{\tau_o^2-\tau_i^2}}{L}
 $$
 
 **Bandwidth for Gaussian pulses**
+
 $$
 \sigma = 0.43\tau
 $$
