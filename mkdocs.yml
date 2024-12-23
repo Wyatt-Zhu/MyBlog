@@ -18,6 +18,7 @@ theme:
     - navigation.indexes
     - content.code.copy
     - content.code.select
+    - content.tooltips
 
   static_templates:
     - 404.html
@@ -62,7 +63,8 @@ extra:
       link: https://github.com/Wyatt-Zhu/
       name: GitHub | Wyatt-Zhu
 
-
+watch:
+  - includes
 # # [top_right] 
 # repo_name: MyBlog
 # repo_url: https://github.com/Wyatt-Zhu/MyBlog/
@@ -89,8 +91,12 @@ nav:
 markdown_extensions:
   - pymdownx.arithmatex: # support latex
       generic: true
+  - abbr
   - attr_list
   - md_in_html
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
